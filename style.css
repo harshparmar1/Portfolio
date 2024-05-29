@@ -60,7 +60,6 @@ body {
     left: 50vw;
     top: 10vh;
   }
-
   /* ================= Header ============ */
   header{
     position: absolute;
@@ -175,8 +174,6 @@ div img{
     align-items: center;
     margin: 100px;
 }
-
-
 #element{
     font-family: Raleway;
     font-size: 50px;
@@ -210,6 +207,7 @@ div img{
       opacity: 0;
     }
   }
+/*About Section*/
 .about-sec{
   height: 100px;
   top: -235px;
@@ -228,7 +226,6 @@ div img{
     right: 10px;
   }
 }
-
 .about-me img{
   position: absolute;
   top: 145px;
@@ -240,7 +237,6 @@ div img{
  animation: move 2s  linear;
 }
 .about-me img:hover{
-  
   cursor: pointer;
 }
 .about-content{
@@ -252,10 +248,10 @@ div img{
   position: relative;
   animation: move 2s  linear;
 }
-
 .about-content p{
   font-size: 20px;
 }
+/*Skill Section*/
 .mh-skills h1{
   position: absolute;
   top: -20px;
@@ -339,7 +335,6 @@ div img{
   font-size: 16px;
 }
 .pr-skill-name2 h3{
-  
   top: -400%;
 }
 .pr-skill-name3{
@@ -351,7 +346,6 @@ div img{
   font-size: 12px;
 }
 .pr-skill-name3 h3{
-  
   top: -500%;
 }
 .pr-skill-name4{
@@ -362,7 +356,6 @@ div img{
   text-transform: uppercase;
 }
 .pr-skill-name4 h3{
-  
   top: -400%;
 }
 .mh-progress-cirlce::before{
@@ -517,7 +510,7 @@ div img{
     width: 0;
   }
 }
-
+/*Project Section*/
 .head_project{
   font-size: 55px;
   color: #FFF;
@@ -564,7 +557,6 @@ div img{
 .body_project:hover{
   cursor: pointer;
 }
-
 .pro1{
   position: relative;
   bottom: -10px;
@@ -572,7 +564,6 @@ div img{
   width: 2000px;
   border-radius: 15px;
   height: 233px;
-
 }
 .pro1 a img{
   position: relative;
@@ -625,8 +616,7 @@ div img{
 .pro3{
   position: relative;
   bottom: 180px;
-  right: 500px;
- 
+  right: 500px; 
 }
 .pro3 a img{
   position: relative;
@@ -645,7 +635,7 @@ div img{
   right: 300px;
   font-size: 20px;
 }
-/* Contact Me*/
+/* Contact Me Section*/
 .contact-text h2{
     color: white;
     position: absolute;
@@ -684,7 +674,6 @@ div img{
 .list{
   margin-bottom: 2.8rem;
 }
-
 .list  a{
   position: relative;
   top: 60px;
@@ -757,6 +746,7 @@ div img{
   resize: none;
   size: 240px;
 }
+/*Footer Section*/
 .end{
   padding: 20px 15%;
   display: flex;
@@ -774,15 +764,6 @@ div img{
   width: 1400px;
   color: white;
 }
-/*.end p{
-  height: 10px;
-  width: 200px;
-  position: relative;
-  top: -40px;
-  right: 966px;
-  font-size: 40px;
-  color: white;
-}*/
 .last-text pre{
   position: relative;
   top: 10px;
