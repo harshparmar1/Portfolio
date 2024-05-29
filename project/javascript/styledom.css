@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 60px;
+    background-color:aqua;
+    color:blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url("rockback.jpg");
+    background-size: cover;
+}
+.choice{
+   height: 165px;
+   width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color:blue;
+    cursor: pointer;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-right: 160px;
+
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 60px;
+    gap: 30px;
+    color:cornflowerblue;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user,#comp{
+    font-size: 4rem;
+    color:brown;
+}
+#co{
+    margin-left: 50px;
+}
+#msg{
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
